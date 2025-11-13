@@ -1,12 +1,34 @@
-body {
+/* This is for The default style desktop basic media quieries */
+body { 
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
+img {
+    width: 300px;
+}
+
+/* For tablets */
+@media (max-width: 768px){
+    body {
+        padding: 15px;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
 
 h1 {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+
+.cta-button {
+    
 }
