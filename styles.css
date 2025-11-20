@@ -1,6 +1,7 @@
 /* This is for The default style desktop basic media quieries */
 body { 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     max-width: 900px;
     margin: auto;
     padding: 20px;
@@ -23,6 +24,7 @@ img {
 
 h1 {
     background-color: #333;
+    font-size: 24px;
     color: white;
     padding: 20px;
     text-align: center;
@@ -30,5 +32,5 @@ h1 {
 
 
 .cta-button {
-    background: #007bff;
+    background: #C42121;
 }
