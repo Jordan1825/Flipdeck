@@ -2,35 +2,146 @@
 body { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    line-height: 1.6;
     max-width: 900px;
-    margin: auto;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    color:#333;
+    background-color: #f5f5f5;
 }
-img {
-    width: 300px;
+/* Header styles */
+header {
+background: -o-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* For tablets */
-@media (max-width: 768px){
-    body {
-        padding: 15px;
-    }
-
-    img {
-        width: 200px;
-    }
-}
-
-
 h1 {
-    background-color: #333;
-    font-size: 24px;
-    color: rgb(245, 22, 22);
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin: 0;
     padding: 20px;
+
+    /* navigation styles */
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
     text-align: center;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* Call-to-action button styles */
 .cta-button {
-    background: #d3e718;
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3b2e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Main Content Styles */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.hero p {
+    font-size: 24px;
+    color: #667eea;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Image Styles */
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*Mission Section*/
+.mission {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #667eea;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.mission p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+/* Benefits Section */
+.benefits {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.benefits h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+.benefits li {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+.benefits li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
 }
