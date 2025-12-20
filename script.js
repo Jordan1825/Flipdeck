@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         //add email to Firestore
-        addDoc(collection(db, 'signups'), {
+        addDoc(collection(db, 'signup-form'), {
             email: email,
             signupDate: new Date(),
             timestamp: Date.now()
